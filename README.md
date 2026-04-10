@@ -239,11 +239,11 @@ For each dataset, we provide 10 qualitative GIF results. In total, this section 
 
 | GT | RDMN | DSAVEN | TAU | MIM |
 | :---: | :---: | :---: | :---: | :---: |
-| <img src="docs/assets/arabidopsis/GT.GIF" width="180px"> | <img src="docs/assets/arabidopsis/RDMN.GIF" width="180px"> | <img src="docs/assets/arabidopsis/DSAVEN.GIF" width="180px"> | <img src="docs/assets/arabidopsis/TAU.GIF" width="180px"> | <img src="docs/assets/arabidopsis/MIM.GIF" width="180px"> |
+| <img src="docs/arabidopsis/GT.GIF" width="180px"> | <img src="docs/arabidopsis/RDMN.GIF" width="180px"> | <img src="docs/arabidopsis/DSAVEN.GIF" width="180px"> | <img src="docs/arabidopsis/TAU.GIF" width="180px"> | <img src="docs/arabidopsis/MIM.GIF" width="180px"> |
 
 | PredRNNv2 | GMG | PhyDnet | MMVP | PredForet |
 | :---: | :---: | :---: | :---: | :---: |
-| <img src="docs/assets/arabidopsis/PredRNNv2.GIF" width="180px"> | <img src="docs/assets/arabidopsis/GMG.GIF" width="180px"> | <img src="docs/assets/arabidopsis/PhyDnet.GIF" width="180px"> | <img src="docs/assets/arabidopsis/MMVP.GIF" width="180px"> | <img src="docs/assets/arabidopsis/PredForet.GIF" width="180px"> |
+| <img src="docs/arabidopsis/PredRNNv2.GIF" width="180px"> | <img src="docs/arabidopsis/GMG.GIF" width="180px"> | <img src="docs/arabidopsis/PhyDnet.GIF" width="180px"> | <img src="docs/arabidopsis/MMVP.GIF" width="180px"> | <img src="docs/arabidopsis/PredForet.GIF" width="180px"> |
 
 </div>
 
