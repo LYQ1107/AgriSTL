@@ -233,7 +233,7 @@ At the current stage, the visualization set focuses on two representative plant 
 
 For each dataset, we provide 10 qualitative GIF results. In total, this section contains 20 GIFs. The compared methods include one GT result and nine representative prediction results.
 
-### Arabidopsis qualitative results
+### Tomato qualitative results
 
 <div align="center">
 
@@ -252,7 +252,7 @@ For each dataset, we provide 10 qualitative GIF results. In total, this section 
   Qualitative visualization results on the Arabidopsis dataset.
 </p>
 
-### Tomato qualitative results
+### Arabidopsis qualitative results
 
 <div align="center">
 
