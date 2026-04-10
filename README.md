@@ -239,11 +239,11 @@ For each dataset, we provide 10 qualitative GIF results. In total, this section 
 
 | GT | RDMN | DSAVEN | TAU | MIM |
 | :---: | :---: | :---: | :---: | :---: |
-| <img src="docs/assets/arabidopsis/GT.gif" width="180px"> | <img src="docs/assets/arabidopsis/RDMN.gif" width="180px"> | <img src="docs/assets/arabidopsis/DSAVEN.gif" width="180px"> | <img src="docs/assets/arabidopsis/TAU.gif" width="180px"> | <img src="docs/assets/arabidopsis/MIM.gif" width="180px"> |
+| <img src="docs/assets/arabidopsis/GT.GIF" width="180px"> | <img src="docs/assets/arabidopsis/RDMN.GIF" width="180px"> | <img src="docs/assets/arabidopsis/DSAVEN.GIF" width="180px"> | <img src="docs/assets/arabidopsis/TAU.GIF" width="180px"> | <img src="docs/assets/arabidopsis/MIM.GIF" width="180px"> |
 
 | PredRNNv2 | GMG | PhyDnet | MMVP | PredForet |
 | :---: | :---: | :---: | :---: | :---: |
-| <img src="docs/assets/arabidopsis/PredRNNv2.gif" width="180px"> | <img src="docs/assets/arabidopsis/GMG.gif" width="180px"> | <img src="docs/assets/arabidopsis/PhyDnet.gif" width="180px"> | <img src="docs/assets/arabidopsis/MMVP.gif" width="180px"> | <img src="docs/assets/arabidopsis/PredForet.gif" width="180px"> |
+| <img src="docs/assets/arabidopsis/PredRNNv2.GIF" width="180px"> | <img src="docs/assets/arabidopsis/GMG.GIF" width="180px"> | <img src="docs/assets/arabidopsis/PhyDnet.GIF" width="180px"> | <img src="docs/assets/arabidopsis/MMVP.GIF" width="180px"> | <img src="docs/assets/arabidopsis/PredForet.GIF" width="180px"> |
 
 </div>
 
@@ -257,11 +257,11 @@ For each dataset, we provide 10 qualitative GIF results. In total, this section 
 
 | GT | RDMN | DSAVEN | TAU | MIM |
 | :---: | :---: | :---: | :---: | :---: |
-| <img src="docs/assets/tomato/GT.gif" width="180px"> | <img src="docs/assets/tomato/RDMN.gif" width="180px"> | <img src="docs/assets/tomato/DSAVEN.gif" width="180px"> | <img src="docs/assets/tomato/TAU.gif" width="180px"> | <img src="docs/assets/tomato/MIM.gif" width="180px"> |
+| <img src="docs/assets/tomato/GT.GIF" width="180px"> | <img src="docs/assets/tomato/RDMN.GIF" width="180px"> | <img src="docs/assets/tomato/DSAVEN.GIF" width="180px"> | <img src="docs/assets/tomato/TAU.GIF" width="180px"> | <img src="docs/assets/tomato/MIM.GIF" width="180px"> |
 
 | PredRNNv2 | GMG | PhyDnet | MMVP | PredForet |
 | :---: | :---: | :---: | :---: | :---: |
-| <img src="docs/assets/tomato/PredRNNv2.gif" width="180px"> | <img src="docs/assets/tomato/GMG.gif" width="180px"> | <img src="docs/assets/tomato/PhyDnet.gif" width="180px"> | <img src="docs/assets/tomato/MMVP.gif" width="180px"> | <img src="docs/assets/tomato/PredForet.gif" width="180px"> |
+| <img src="docs/assets/tomato/PredRNNv2.GIF" width="180px"> | <img src="docs/assets/tomato/GMG.GIF" width="180px"> | <img src="docs/assets/tomato/PhyDnet.GIF" width="180px"> | <img src="docs/assets/tomato/MMVP.GIF" width="180px"> | <img src="docs/assets/tomato/PredForet.GIF" width="180px"> |
 
 </div>
 
