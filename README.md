@@ -1,4 +1,6 @@
 
+<div align="center">
+
 # AgriSTL: An Agricultural Spatio-Temporal Learning Framework
 
 <p align="center">
@@ -7,6 +9,8 @@
   <img src="https://img.shields.io/badge/Status-Active%20Development-F9A825?style=flat-square" />
   <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat-square" />
 </p>
+
+</div>
 
 <p align="center">
   🌱 Plant growth prediction &nbsp; | &nbsp;
