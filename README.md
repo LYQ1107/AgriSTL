@@ -279,13 +279,7 @@ For each dataset, we provide 10 qualitative GIF results. In total, this section 
 
 ## Acknowledgement
 
-AgriSTL is built upon [OpenSTL](https://github.com/chengtan9907/OpenSTL) and would not have been possible without the strong foundation provided by the OpenSTL project.
-
-We sincerely thank the authors and contributors of [OpenSTL](https://github.com/chengtan9907/OpenSTL) for building a comprehensive, modular, and highly valuable benchmark framework for spatio-temporal predictive learning. Their open-source effort provides the essential basis upon which AgriSTL is developed and extended toward agricultural applications.
-
-Without [OpenSTL](https://github.com/chengtan9907/OpenSTL), the development of AgriSTL in its current form would not have been possible.
-
-We also thank the original authors of the integrated temporal prediction models for their valuable open-source contributions.
+AgriSTL is built upon [OpenSTL](https://github.com/chengtan9907/OpenSTL) and would not have been possible without the strong foundation provided by the OpenSTL project. We sincerely thank the authors and contributors of [OpenSTL](https://github.com/chengtan9907/OpenSTL) for building a comprehensive, modular, and highly valuable benchmark framework for spatio-temporal predictive learning. Their open-source effort provides the essential basis upon which AgriSTL is developed and extended toward agricultural applications. We also thank the original authors of the integrated temporal prediction models for their valuable open-source contributions.
 
 ## Contact
 
