@@ -41,7 +41,7 @@ At the current stage, AgriSTL integrates multiple recent temporal and spatio-tem
 </p>
 
 <p align="center">
-  Overall framework of AgriSTL. The figure can be replaced with your project overview illustration.
+  Overall framework of AgriSTL.
 </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
