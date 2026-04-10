@@ -1,7 +1,3 @@
-<img width="168" height="70" alt="image" src="https://github.com/user-attachments/assets/fbca5326-aa67-4328-a6c8-bcb510a1419b" /><div align="center">
-
-<!-- Optional project logo -->
-<!-- <img src="docs/assets/agristl_logo.png" width="38%"> -->
 
 # AgriSTL: An Agricultural Spatio-Temporal Learning Framework
 
