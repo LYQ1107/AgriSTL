@@ -1,195 +1,170 @@
 <div align="center">
 
 # AgriSTL
-### Agricultural Spatio-Temporal Learning for Plant Growth Prediction and Yield Estimation
+### An Agricultural Spatio-Temporal Learning Framework for Plant Growth Prediction
 
 <p>
-  <img src="https://img.shields.io/badge/task-plant%20growth%20prediction-4CAF50?style=flat-square" />
-  <img src="https://img.shields.io/badge/task-yield%20estimation-8BC34A?style=flat-square" />
-  <img src="https://img.shields.io/badge/framework-OpenSTL%20extended-2196F3?style=flat-square" />
+  <img src="https://img.shields.io/badge/task-plant%20growth%20prediction-43A047?style=flat-square" />
+  <img src="https://img.shields.io/badge/task-yield%20estimation-7CB342?style=flat-square" />
+  <img src="https://img.shields.io/badge/task-weather%20forecasting-1E88E5?style=flat-square" />
+  <img src="https://img.shields.io/badge/framework-OpenSTL%20extended-3949AB?style=flat-square" />
+  <img src="https://img.shields.io/badge/status-active%20development-F9A825?style=flat-square" />
   <img src="https://img.shields.io/badge/python-3.9%2B-3776AB?style=flat-square" />
-  <img src="https://img.shields.io/badge/pytorch-supported-EE4C2C?style=flat-square" />
-  <img src="https://img.shields.io/badge/status-active%20development-FF9800?style=flat-square" />
 </p>
 
 <p>
-  🌱 Agricultural forecasting benchmark &nbsp; | &nbsp;
-  📈 Unified training pipeline &nbsp; | &nbsp;
-  🧠 Multi-model integration &nbsp; | &nbsp;
-  🍅 Multi-species plant datasets
+  🌱 Plant growth prediction &nbsp; | &nbsp;
+  🍅 Agricultural temporal modeling &nbsp; | &nbsp;
+  ⛅ Weather-aware forecasting &nbsp; | &nbsp;
+  📈 Unified benchmark framework
 </p>
+
+[📘 Overview](#overview) |
+[📰 News](#news-and-updates) |
+[🛠️ Installation](#installation) |
+[🚀 Getting Started](#getting-started) |
+[🧠 Supported Methods](#supported-methods) |
+[🌿 Datasets and Tasks](#datasets-and-tasks) |
+[🎞️ Visualization](#visualization) |
+[🙏 Acknowledgement](#acknowledgement)
 
 </div>
 
 ---
 
-## 📌 Overview
+## Introduction
 
-AgriSTL is an agricultural spatio-temporal learning framework built upon OpenSTL and further extended for plant growth prediction and yield estimation. It is designed to provide a unified, extensible, and reproducible benchmark platform for agricultural temporal modeling from image sequences.
+AgriSTL is an agricultural spatio-temporal learning framework built upon OpenSTL and further extended for agricultural predictive tasks. It is designed to provide a unified, extensible, and reproducible benchmark for temporal modeling from agricultural observations, with a primary focus on plant growth prediction.
 
-Different from generic spatio-temporal forecasting frameworks, AgriSTL focuses on agricultural growth processes, especially seedling-stage temporal development, where cross-day morphology changes, species-specific growth patterns, and visually subtle temporal differences make prediction more challenging. To support this setting, AgriSTL integrates multiple recent spatio-temporal prediction models into a unified pipeline and further introduces an agricultural baseline for yield-related prediction.
+Compared with generic spatio-temporal learning benchmarks, AgriSTL places greater emphasis on agricultural growth dynamics, especially the subtle and continuous developmental changes observed in seedling-stage plant image sequences. In addition to plant growth prediction as the core task, the framework also supports two other representative agricultural task directions, namely yield estimation and weather forecasting, forming a unified benchmark that covers three typical agricultural temporal prediction scenarios.
 
-At the current stage, AgriSTL includes:
-- multiple spatio-temporal prediction models adapted into a consistent training framework
-- three plant growth prediction datasets covering Arabidopsis, tomato, and kale seedlings
-- an additional Yield3DCNN baseline for yield estimation tasks
-- a modular codebase suitable for future model, dataset, and task extension
+At the current stage, AgriSTL integrates multiple recent temporal and spatio-temporal prediction models into a common training and evaluation pipeline, and provides plant-oriented benchmark datasets covering Arabidopsis, Tomato, and Kale during the 20-day seedling stage.
 
 ---
 
-## ✨ What makes AgriSTL different
+## Overview
 
-AgriSTL is not simply a direct copy of a generic forecasting benchmark. It is tailored for agricultural temporal vision tasks with the following characteristics:
+AgriSTL is developed to bridge the gap between general spatio-temporal learning frameworks and real agricultural prediction needs.
 
-### 1. Agriculture-oriented benchmark design
-AgriSTL is explicitly designed for agricultural plant growth scenarios rather than general moving-object or weather benchmarks. The framework emphasizes biological growth dynamics, visual development across days, and crop-oriented downstream usage.
+The framework is mainly centered on plant growth prediction, while also maintaining compatibility with agricultural weather forecasting and yield-related analysis. This design enables researchers to study temporal modeling methods in a more application-oriented agricultural context.
 
-### 2. Unified support for multiple recent temporal models
-AgriSTL extends the base framework with a diverse set of temporal and spatio-temporal models, making it easier to compare different modeling paradigms under a shared protocol.
+AgriSTL currently provides:
 
-### 3. Plant-specific multi-species datasets
-The framework includes seedling-stage datasets from three plant species:
-- Arabidopsis
-- Tomato
-- Kale
+- a unified codebase for agricultural spatio-temporal learning
+- integrated support for multiple recent temporal prediction models
+- benchmark datasets for seedling-stage plant growth prediction
+- support for three representative agricultural task types:
+  - plant growth prediction
+  - yield estimation
+  - weather forecasting
+- a modular pipeline for future extension to new datasets, models, and downstream tasks
 
-These datasets are constructed for temporal plant growth prediction over a 20-day developmental period.
-
-### 4. Beyond prediction: yield estimation support
-In addition to future growth prediction, AgriSTL expands toward agricultural downstream tasks by incorporating Yield3DCNN as a baseline for yield estimation.
-
-### 5. Extensible research platform
-AgriSTL is intended not only as a codebase, but also as a research testbed for:
-- agricultural video prediction
-- temporal phenotyping
-- growth dynamics modeling
-- cross-species temporal learning
-- yield-related visual forecasting
+Among these tasks, plant growth prediction is the major focus of the current project, while yield estimation and weather forecasting are included as complementary task directions for broader agricultural applicability.
 
 ---
 
-## 🧩 Supported models
+## Key Features
 
-AgriSTL currently supports or extends the following models:
-
-### General temporal / spatio-temporal models
-- EarthFormer
-- TimesNet
-- TimeMixer
-- iTransformer
-- DMVFN
-- PredFormer
-- TimeSformer
-- VMRNN
-- GMG
-
-### Agricultural downstream baseline
-- Yield3DCNN
-
-These models are integrated into a unified experimental pipeline so that different architectures can be trained and evaluated under consistent settings.
+- Agriculture-oriented benchmark design for temporal prediction
+- Main focus on plant growth prediction from image sequences
+- Unified support for multiple recent spatio-temporal learning models
+- Coverage of three representative agricultural task types
+- Extensible framework for new models, datasets, and evaluation protocols
+- Built upon the solid foundation of OpenSTL and adapted for agricultural applications
 
 ---
 
-## 🌿 Supported tasks
+## News and Updates
 
-AgriSTL currently focuses on two major task directions.
+- [2026-04-10] AgriSTL project repository is created.
+- [2026-04-10] Initial version of the README is released.
+- [Coming Soon] Benchmark datasets, checkpoints, and more detailed experiment documents will be released gradually.
+
+---
+
+## Datasets and Tasks
+
+AgriSTL currently covers three representative agricultural task directions.
 
 ### 1. Plant growth prediction
-Given a sequence of historical plant images, the model predicts future observations during seedling growth. This setting can be used for:
-- future frame prediction
-- temporal morphology analysis
-- growth trend modeling
-- early-stage plant development forecasting
 
-### 2. Yield estimation
-AgriSTL also supports yield-related prediction through the Yield3DCNN baseline. This part aims to connect temporal representation learning with agricultural downstream analysis.
+This is the primary task of AgriSTL. Given historical plant observations, the model predicts future growth states. This task is designed for studying temporal plant development, morphological evolution, and growth-aware prediction in agricultural scenarios.
 
----
+The current benchmark datasets focus on 20-day seedling-stage growth image sequences of:
 
-## 🍀 Datasets
-
-AgriSTL includes three plant growth prediction datasets collected during the 20-day seedling stage.
-
-### Included species
 - Arabidopsis
 - Tomato
 - Kale
 
-### Dataset characteristics
-Each dataset consists of temporal image sequences that describe the daily growth process of seedlings. Compared with generic spatio-temporal data, these datasets are characterized by:
-- subtle temporal visual changes
-- strong biological growth continuity
-- species-specific morphology
-- agricultural interpretability
+### 2. Yield estimation
 
-### Example applications
-- future plant appearance prediction
-- developmental trajectory modeling
-- plant growth representation learning
-- temporal benchmarking across species
-- early-stage agricultural decision support
+AgriSTL additionally supports yield-related prediction as an agricultural downstream task. This direction is currently included as an extension of the framework and will be gradually enriched in future releases.
+
+### 3. Weather forecasting
+
+AgriSTL also supports weather forecasting as another representative agricultural temporal task. This task is intended to improve the framework’s broader applicability in agricultural spatio-temporal prediction research.
 
 ### Dataset status
-If you have not yet released the dataset publicly, you can temporarily keep this section as:
 
-> The datasets are currently being organized and will be released after paper publication or project completion.
-
-If later you publish them, you can replace this with official download links.
+The plant growth datasets are currently being organized for public release. More complete documentation and access instructions will be provided in future updates.
 
 ---
 
-## 🏗️ Framework structure
+## Supported Methods
 
-AgriSTL follows a modular design and can be roughly divided into the following layers:
+AgriSTL extends the OpenSTL framework by integrating multiple representative temporal and spatio-temporal prediction models into a unified experimental pipeline.
 
-### Core layer
-Responsible for:
-- training engine
-- evaluation logic
-- optimization utilities
-- logging and checkpoint management
+### Currently supported methods
 
-### Model layer
-Responsible for:
-- temporal forecasting models
-- network definitions
-- agricultural task-specific baselines
+- √ IncepU (SimVP.V1) (CVPR'2022)
+- √ gSTA (SimVP.V2) (arXiv'2022)
+- √ TAU (CVPR'2023)
+- √ EarthFormer (NeurIPS'2022)
+- √ TimesNet (ICLR'2023)
+- √ TimeMixer (ICLR'2024)
+- √ iTransformer (ICLR'2024)
+- √ DMVFN (CVPR'2023)
+- √ TimeSformer (ICML'2021)
+- √ GMG
+- √ PhyDNet (CVPR'2020)
+- √ MIM (CVPR'2019)
+- √ PredRNNv2
+- √ MMVP (ICCV'2023)
+- √ PredFormer
+- √ Yield3DCNN (AgriSTL baseline)
 
-### Data layer
-Responsible for:
-- dataset registration
-- dataloaders
-- preprocessing pipeline
-- train/val/test splits
+### Internal methods in this project
 
-### User layer
-Responsible for:
-- config-driven experiments
-- training scripts
-- testing scripts
-- inference and result analysis
+- RDMN (AgriSTL internal method, currently unpublished)
+- DSAVEN (AgriSTL internal method, currently unpublished)
+
+### Notes
+
+- Some methods are adapted and re-organized under the AgriSTL training and evaluation pipeline.
+- RDMN and DSAVEN are currently internal methods of this project and have not yet been formally published or open-sourced.
+- Additional temporal prediction baselines and corresponding configurations will be gradually released in future updates.
 
 ---
 
-## 📂 Repository structure
+## Repository Structure
 
-A recommended repository organization is shown below. You can later adjust this block to exactly match your codebase.
+A typical repository structure is as follows:
 
 ```text
 AgriSTL/
-├── configs/                 # model and dataset configuration files
-├── openstl/                 # core framework modules inherited and extended from OpenSTL
+├── configs/                  # configuration files for datasets and models
+├── openstl/                  # core framework modules inherited and extended from OpenSTL
 │   ├── api/
 │   ├── core/
 │   ├── datasets/
 │   ├── methods/
 │   ├── models/
 │   └── modules/
-├── tools/                   # training, testing, and utility scripts
-├── docs/                    # project documents, figures, and notes
-├── examples/                # demos or example notebooks
-├── checkpoints/             # saved model weights (optional, usually ignored)
-├── results/                 # evaluation outputs and logs (optional, usually ignored)
+├── tools/                    # training, testing, and utility scripts
+├── docs/                     # project documents and figures
+├── checkpoints/              # pretrained checkpoints (to be released)
+├── results/                  # experiment outputs and logs
+├── RUN_SCRIPTS.md            # example commands for running experiments
 ├── requirements.txt
 ├── environment.yml
 └── README.md
