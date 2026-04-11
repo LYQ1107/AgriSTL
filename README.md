@@ -146,8 +146,11 @@ AgriSTL supports multiple representative spatio-temporal prediction methods and 
 
 <details open>
 <summary>Currently supported methods</summary>
+  
 - ▸ ConvLSTM (NeurIPS'2015)
+  
 - ▸ PredRNN (NeurIPS'2017)
+  
 - ▸ PredRNN++ (ICML'2018)
 - ▸ E3D-LSTM (ICLR'2018)
 - ▸ MIM (CVPR'2019)
