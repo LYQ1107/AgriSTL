@@ -241,9 +241,9 @@ For each dataset, we provide 10 qualitative GIF results. In total, this section 
 | :---: | :---: | :---: | :---: | :---: |
 | <img src="docs/arabidopsis/GT.GIF" width="180px"> | <img src="docs/arabidopsis/RDMN.GIF" width="180px"> | <img src="docs/arabidopsis/DSAVFN.GIF" width="180px"> | <img src="docs/arabidopsis/TAU.GIF" width="180px"> | <img src="docs/arabidopsis/MIM.GIF" width="180px"> |
 
-| PredRNNv2 | GMG | PhyDnet | MMVP | PredForet |
+| PredRNNv2 | GMG | PhyDnet | MMVP | PredFormer |
 | :---: | :---: | :---: | :---: | :---: |
-| <img src="docs/arabidopsis/PredRNNv2.GIF" width="180px"> | <img src="docs/arabidopsis/GMG.GIF" width="180px"> | <img src="docs/arabidopsis/PhyDnet.GIF" width="180px"> | <img src="docs/arabidopsis/MMVP.GIF" width="180px"> | <img src="docs/arabidopsis/PredFormer.GIF<img width="195" height="70" alt="image" src="https://github.com/user-attachments/assets/0b027901-57a0-4618-822a-570a6aef46e8" />
+| <img src="docs/arabidopsis/PredRNNv2.GIF" width="180px"> | <img src="docs/arabidopsis/GMG.GIF" width="180px"> | <img src="docs/arabidopsis/PhyDnet.GIF" width="180px"> | <img src="docs/arabidopsis/MMVP.GIF" width="180px"> |  <img src="docs/arabidopsis/PredFormer.GIF" width="180px"> |
 .GIF" width="180px"> |
 
 </div>
@@ -260,9 +260,9 @@ For each dataset, we provide 10 qualitative GIF results. In total, this section 
 | :---: | :---: | :---: | :---: | :---: |
 | <img src="docs/assets/tomato/GT.GIF" width="180px"> | <img src="docs/assets/tomato/RDMN.GIF" width="180px"> | <img src="docs/assets/tomato/DSAVFN.GIF" width="180px"> | <img src="docs/assets/tomato/TAU.GIF" width="180px"> | <img src="docs/assets/tomato/MIM.GIF" width="180px"> |
 
-| PredRNNv2 | GMG | PhyDnet | MMVP | PredForet |
+| PredRNNv2 | GMG | PhyDnet | MMVP | PredFormer |
 | :---: | :---: | :---: | :---: | :---: |
-| <img src="docs/assets/tomato/PredRNNv2.GIF" width="180px"> | <img src="docs/assets/tomato/GMG.GIF" width="180px"> | <img src="docs/assets/tomato/PhyDnet.GIF" width="180px"> | <img src="docs/assets/tomato/MMVP.GIF" width="180px"> | <img src="docs/assets/tomato/PredFormer.GIF<img width="195" height="70" alt="image" src="https://github.com/user-attachments/assets/16864872-98cd-4ad8-8ffd-5aa0fe93f78f" />
+| <img src="docs/assets/tomato/PredRNNv2.GIF" width="180px"> | <img src="docs/assets/tomato/GMG.GIF" width="180px"> | <img src="docs/assets/tomato/PhyDnet.GIF" width="180px"> | <img src="docs/assets/tomato/MMVP.GIF" width="180px"> |  <img src="docs/assets/tomato/PredFormer.GIF" width="180px"> |
 .GIF" width="180px"> |
 
 </div>
