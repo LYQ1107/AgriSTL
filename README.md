@@ -146,24 +146,30 @@ AgriSTL supports multiple representative spatio-temporal prediction methods and 
 
 <details open>
 <summary>Currently supported methods</summary>
-
-- ▸ IncepU (SimVP.V1) (CVPR'2022)
-- ▸ gSTA (SimVP.V2) (arXiv'2022)
+- ▸ ConvLSTM (NeurIPS'2015)
+- ▸ PredRNN (NeurIPS'2017)
+- ▸ PredRNN++ (ICML'2018)
+- ▸ E3D-LSTM (ICLR'2018)
+- ▸ MIM (CVPR'2019)
+- ▸ PhyDNet (CVPR'2020)
+- ▸ MAU (NeurIPS'2021)
+- ▸ PredRNN.V2 (TPAMI'2022)
+- ▸ SimVP (CVPR'2022)
+- ▸ SimVP.V2 (ArXiv'2022)
 - ▸ TAU (CVPR'2023)
+- ▸ MMVP (ICCV'2023)
+- ▸ SwinLSTM (ICCV'2023)
+- ▸ WaST (AAAI'2024)
 - ▸ EarthFormer (NeurIPS'2022)
 - ▸ TimesNet (ICLR'2023)
 - ▸ TimeMixer (ICLR'2024)
 - ▸ iTransformer (ICLR'2024)
 - ▸ DMVFN (CVPR'2023)
+- ▸ PredFormer (ArXiv'2025)
 - ▸ TimeSformer (ICML'2021)
-- ▸ GMG
-- ▸ MIM (CVPR'2019)
-- ▸ PredRNNv2
-- ▸ PhyDnet (CVPR'2020)
-- ▸ MMVP (ICCV'2023)
-- ▸ PredForet
-- ▸ Yield3DCNN (AgriSTL baseline)
-
+- ▸ VMRNN (CVPR'2024)
+- ▸ GMG (TCSVT'2026)
+- ▸ Yield3DCNN (ArXiv'2024)
 </details>
 
 <details open>
