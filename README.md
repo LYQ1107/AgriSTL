@@ -170,7 +170,7 @@ AgriSTL supports multiple representative spatio-temporal prediction methods and 
 - ▸ TimeSformer (ICML'2021)
 - ▸ VMRNN (CVPR'2024)
 - ▸ GMG (TCSVT'2026)
-- ▸ Yield3DCNN (ArXiv'2024)
+- ▸ Yield3DCNN (COMPAG'2024)
   
 </details>
 
