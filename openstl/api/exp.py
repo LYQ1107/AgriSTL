@@ -141,7 +141,8 @@ class BaseExperiment(object):
             _tmp_input2 = torch.ones(1, args.aft_seq_length, C, H, W).to(device)
             _tmp_constraints = torch.zeros((49, 7, 7)).to(device)
             input_dummy = (_tmp_input1, _tmp_input2, _tmp_constraints)
-        elif args.method in ['convlstm', 'predrnnpp', 'predrnn', 'mim', 'e3dlstm', 'mau']:
+        elif args.method in ['convlstm', 'predrnnpp', 'predrnn', 'mim', 'e3dlstm', 'mau',
+                            'rdmn', 'gmg_mim_sgfm']:
             Hp, Wp = H // args.patch_size, W // args.patch_size
             Cp = args.patch_size ** 2 * C
             _tmp_input = torch.ones(1, args.total_length, Hp, Wp, Cp).to(device)

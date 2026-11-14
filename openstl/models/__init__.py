@@ -20,6 +20,7 @@ from .PredFormer_Quadruplet_TSST import PredFormer_Model
 from .yield3dcnn_model import Yield3DCNN_Model
 from .VMRNN_model import VMRNN_D_Model, VMRNN_B_Model
 from .GMG_model import GMG_Model
+from .rdmn_model import RDMNModel
 
 __all__ = [
     'ConvLSTM_Model', 'E3DLSTM_Model', 'MAU_Model', 'MIM_Model', 'PhyDNet_Model',
@@ -28,5 +29,5 @@ __all__ = [
     'TimeSformer_Model',
     'DMVFN_Model',
     'PredFormer_Model', 'Yield3DCNN_Model',
-    'VMRNN_D_Model', 'VMRNN_B_Model', 'GMG_Model'
+    'VMRNN_D_Model', 'VMRNN_B_Model', 'GMG_Model', 'RDMNModel'
 ]

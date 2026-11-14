@@ -16,6 +16,7 @@ python tools\train.py -d namin --lr 1e-3 -c configs\namin\TimeSformer.py --ex_na
 python tools\train.py -d namin --lr 1e-3 -c configs\namin\PredRNNv2.py --ex_name namin_predrnnv2 --gpus 1
 python tools\train.py -d namin --lr 1e-3 -c configs\namin\TAU.py --ex_name namin_tau --gpus 1
 python -m tools.train -d namin -m dmvfn -c configs\namin\DMVFN.py --ex_name namin_dmvfn --gpus 0
+python tools\train.py -d namin -m RDMN -c configs\namin\RDMN.py --ex_name namin_rdmn --gpus 0
 ```
 
 ### Visualization on Linux/macOS

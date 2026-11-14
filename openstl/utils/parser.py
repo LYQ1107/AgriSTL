@@ -58,7 +58,8 @@ def create_parser():
                                 'TimesNet', 'timesnet', 'iTransformer', 'itransformer',
                                 'TimeMixer', 'timemixer', 'TimeSformer', 'timesformer', 'DMVFN', 'dmvfn',
                                 'PredFormer', 'predformer', 'Yield3DCNN', 'yield3dcnn',
-                                'VMRNN', 'vmrnn', 'vmrnn_d', 'vmrnn_b', 'GMG', 'gmg'],
+                                'VMRNN', 'vmrnn', 'vmrnn_d', 'vmrnn_b', 'GMG', 'gmg',
+                                'RDMN', 'rdmn', 'GMG_MIM_SGFM', 'gmg_mim_sgfm'],
                         help='Name of video prediction method to train (default: "SimVP")')
     parser.add_argument('--config_file', '-c', default=None, type=str,
                         help='Path to the default config file')

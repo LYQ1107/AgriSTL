@@ -23,6 +23,7 @@ from .PredFormer import PredFormer
 from .yield3dcnn import Yield3DCNN
 from .VMRNN import VMRNN_D, VMRNN_B
 from .GMG import GMG
+from .rdmn import RDMN
 
 method_maps = {
     'convlstm': ConvLSTM,
@@ -51,11 +52,14 @@ method_maps = {
     'vmrnn_b': VMRNN_B,
     'vmrnn': VMRNN_B,
     'gmg': GMG,
+    'rdmn': RDMN,
+    # Legacy identifier used by the original experiment configurations.
+    'gmg_mim_sgfm': RDMN,
 }
 
 __all__ = [
     'method_maps', 'ConvLSTM', 'E3DLSTM', 'MAU', 'MIM',
     'PredRNN', 'PredRNNpp', 'PredRNNv2', 'PhyDNet', 'SimVP', 'TAU',
     "MMVP", 'SwinLSTM_D', 'SwinLSTM_B', 'WaST', 'TimesNet', 'iTransformer', 'TimeMixer', 'TimeSformer', 'DMVFN',
-    'PredFormer', 'Yield3DCNN', 'VMRNN_D', 'VMRNN_B', 'GMG'
+    'PredFormer', 'Yield3DCNN', 'VMRNN_D', 'VMRNN_B', 'GMG', 'RDMN'
 ]

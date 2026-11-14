@@ -177,10 +177,22 @@ AgriSTL supports multiple representative spatio-temporal prediction methods and 
 <details open>
 <summary>Internal methods in this project</summary>
 
-- ▸ RDMN (AgriSTL internal method, currently unpublished)
+- ▸ RDMN (implementation available in this repository)
 - ▸ DSAVFN (AgriSTL internal method, currently unpublished)
 
 </details>
+
+### RDMN
+
+RDMN models adjacent hidden-state differences with differential memory, uses a
+spectral global focus module to calibrate whole-canopy structure, and combines
+self-attention memory with motion-guided adaptation for non-rigid growth. The
+default AgriSTL configuration uses four 128-channel recurrent layers.
+
+```shell
+python tools/train.py -d namin -m RDMN -c configs/namin/RDMN.py \
+  --ex_name namin_rdmn --gpus 0
+```
 
 ### Agricultural tasks
 
@@ -212,7 +224,8 @@ AgriSTL supports multiple representative spatio-temporal prediction methods and 
 ### Notes
 
 - Some methods are adapted and reorganized under the AgriSTL unified pipeline.
-- RDMN and DSAVFN are proposed in this project and are currently unpublished.
+- RDMN and DSAVFN are proposed in this project. The RDMN implementation and
+  training configuration are available in this repository.
 - More baselines, detailed configurations, and benchmark reports will be released in future updates.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -282,7 +295,7 @@ For each dataset, we provide 10 qualitative GIF results. In total, this section 
 ### Notes
 
 - These qualitative results are mainly used to demonstrate temporal evolution fidelity and appearance consistency in plant growth prediction.
-- RDMN and DSAVFN are internal methods proposed in this project and have not yet been formally published.
+- RDMN and DSAVFN are methods proposed in this project; the RDMN source code is included above.
 - More visualization examples and organized result pages will be added in future updates.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
